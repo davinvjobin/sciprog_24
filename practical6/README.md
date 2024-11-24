@@ -5,7 +5,11 @@ This folder contains code of practical 6
 
 ## Compile
 
-gcc -o matmult matmult.c -lm
+gcc main.c mm.c -o matmult
+
+## Compile using make
+
+make
 
 ## Execute and Outputs
 
