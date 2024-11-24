@@ -10,6 +10,7 @@ gcc -o matmult matmult.c -lm
 ## Execute and Outputs
 
 ./matmult
+```
 
  This is matrix A
 
@@ -32,3 +33,4 @@ gcc -o matmult matmult.c -lm
  11  2 -7-16
  14  2-10-22
  17  2-13-28 
+ ```
