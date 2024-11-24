@@ -12,6 +12,7 @@ gcc -o fib fib.c -lm
 ## Execute and Outputs
 
 ./arctan
+```
 Please enter a positive real number delta:
 4
 The dif. at x=-0.900000 is 0.5722194896
@@ -33,12 +34,14 @@ The dif. at x=0.600000 is 0.0931471806
 The dif. at x=0.700000 is 0.1673005277
 The dif. at x=0.800000 is 0.2986122887
 The dif. at x=0.900000 is 0.5722194896
-
+```
 
 ./fib
+```
 Please input a positive integer n
 4
 The fib. series is:
 0, 1 1
 2
 3
+```
