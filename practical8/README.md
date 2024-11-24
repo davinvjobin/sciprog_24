@@ -1,44 +1,24 @@
-# Practical 5
+# Practical 8
 
 ## Introduction
-This folder contains code of practical 5
+This folder contains code of practical 8
 
 ## Compile
 
-gcc -o arctan arctanh.c -lm
+gcc -o gcd_random gcd_random.c -lm
 
-gcc -o fib fib.c -lm
+gcc -o gcd gcd.c -lm
 
 ## Execute and Outputs
 
-./arctan
-Please enter a positive real number delta:
-4
-The dif. at x=-0.900000 is 0.5722194896
-The dif. at x=-0.800000 is 0.2986122887
-The dif. at x=-0.700000 is 0.1673005277
-The dif. at x=-0.600000 is 0.0931471806
-The dif. at x=-0.500000 is 0.0493061443
-The dif. at x=-0.400000 is 0.0236489302
-The dif. at x=-0.300000 is 0.0095196042
-The dif. at x=-0.200000 is 0.0027325541
-The dif. at x=-0.100000 is 0.0003353477
-The dif. at x=-0.000000 is 0.0000000000
-The dif. at x=0.100000 is 0.0003353477
-The dif. at x=0.200000 is 0.0027325541
-The dif. at x=0.300000 is 0.0095196042
-The dif. at x=0.400000 is 0.0236489302
-The dif. at x=0.500000 is 0.0493061443
-The dif. at x=0.600000 is 0.0931471806
-The dif. at x=0.700000 is 0.1673005277
-The dif. at x=0.800000 is 0.2986122887
-The dif. at x=0.900000 is 0.5722194896
+./gcd_random
+IterativeGCD(9, 18)=9
+RecursiveGCD(9, 18)=9
 
 
-./fib
-Please input a positive integer n
+./gcd
+Please enter two positive integers:
 4
-The fib. series is:
-0, 1 1
 2
-3
+IterativeGCD(4, 2)=2
+RecursiveGCD(4, 2)=2
