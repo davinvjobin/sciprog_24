@@ -1,7 +1,7 @@
-# Practical 6
+# Practical 7
 
 ## Introduction
-This folder contains code of practical 6
+This folder contains code of practical 7
 
 ## Compile
 
@@ -23,4 +23,4 @@ Please enter the order you wish to use
 0.500000
 0.166667
 0.041667
- e is estimated as 2.7083333333, with difference -9.948495e-03
+ e is estimated as 2.7083333333, with difference -9.948495e-03 
