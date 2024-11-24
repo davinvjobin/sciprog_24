@@ -10,6 +10,7 @@ gcc -o trap trap.c -lm
 ## Execute and Outputs
 
 ./trap
+```
 TanArr[0] = 0.000000
 TanArr[1] = 0.087489
 TanArr[2] = 0.176327
@@ -28,3 +29,4 @@ The value of sum after the loop is: 14.197204
 
 Trapezoidal result is: 0.619470
 Real result is 0.693147
+```
